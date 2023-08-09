@@ -5,7 +5,6 @@ class AllrecipeScraperSpider(scrapy.Spider):
     name = "allrecipe_scraper"
     allowed_domains = ["www.allrecipes.com"]
     start_urls = ["http://www.allrecipes.com/recipes"]
-    #start_urls = ["file:///home/taz/Desktop/recipeDataScraping/allrecipe/categories.html"]
 
     def parse(self, response):
         

@@ -4,8 +4,7 @@ import scrapy
 class AllrecipeScraperSpider(scrapy.Spider):
     name = "category_scraper"
     allowed_domains = ["www.allrecipes.com"]
-    #start_urls = ["http://www.allrecipes.com/recipes"]
-    start_urls = ["file:///home/taz/Desktop/recipeDataScraping/allrecipe/recipes.html"]
+    start_urls = ["http://www.allrecipes.com/recipes"]
 
     def parse(self, response):
         
