@@ -2,9 +2,8 @@
 
 <div align="center">
     <a href="#">
-     <img src="logo.png" alt="vioreach" width="430" height="220" style="pointer-events: none;" />
+     <img src="logo.png" alt="vioreach" width="430" height="260" style="pointer-events: none;" />
     </a>
-    <h2>- Violence Detection On Social Media -</h2>
 </div>
 
 <br />
