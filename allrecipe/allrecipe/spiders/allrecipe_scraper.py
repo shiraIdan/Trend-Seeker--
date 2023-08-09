@@ -11,16 +11,7 @@ class AllrecipeScraperSpider(scrapy.Spider):
         # Categories
         categories = response.css("a.taxonomy-nodes__link.mntl-text-link.type--squirrel-link::attr(href)").getall()
 
-        # which category to scrape
-        print("\n\nChoose which category to scrape. Choose the index (0,1,2...)")
-        for (i,c) in enumerate(categories):
-            print(f"{i} --- {c.split('/')[-2]}")
-        index = int(input("\ncategory index:"))
-
-        print(categories[index] + "\n\n")
-        # Continue the scraping with the selected category
         yield scrapy.Request(url= categories[index], callback=self.parse_category)
-
 
     def parse_category(self, response):
         
