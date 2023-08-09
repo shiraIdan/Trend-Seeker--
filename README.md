@@ -1,8 +1,15 @@
 # Trend-Seeker-Final-Project
 
+<div align="center">
+    <a href="#">
+     <img src="logo.png" alt="vioreach" width="430" height="220" style="pointer-events: none;" />
+    </a>
+    <h2>- Violence Detection On Social Media -</h2>
+</div>
+
 <br />
 
-### About The Project 
+### About The Project 🔎
 
 In today's era, it is important for business owners to find ways to predict customer behavior,
 which is largely influenced by social media. One of the effective means for this is following trends in social media, which influence the purchase of specific products.
