@@ -2,7 +2,7 @@
 
 <div align="center">
     <a href="#">
-     <img src="logo_trend_seeker.png" alt="vioreach" width="430" height="260" style="pointer-events: none;" />
+     <img src="logo_trend_seeker.png" alt="vioreach" width="330" height="330" style="pointer-events: none;" />
     </a>
 </div>
 
